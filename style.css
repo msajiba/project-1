@@ -1,0 +1,7 @@
+body{
+   background: #333;
+    color: white;
+}
+.navbar{
+    border-bottom: 2px solid blue;
+}
