@@ -2,48 +2,259 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <!-- bootstrap cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <!-- add css link -->
-    <link rel="stylesheet" href="style.css">
+  <!-- fontawsome cdn -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+  <!-- add css link -->
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-     <!-- navbar start -->
+  <!-- navbar start -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav m-lg-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#home">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#explore">Explore</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#create">Create</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#share">Share</a>
-              </li>
-            </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav m-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#explore">Explore</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#create">Create</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#share">Share</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- navbar end -->
+
+  <!-- start homepage section -->
+
+  <header id="home-section">
+    <div class="dark-overlay">
+      <div class="home-inner container">
+        <div class="row">
+          <div class="col-lg-8 d-none d-lg-block">
+            <h1 class="display-4">
+              Build <strong> social profiles </strong> and gain revenue <strong> profits </strong>
+            </h1>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolore laboriosam ab culpa cupiditate.
+                Vero?
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolore laboriosam ab culpa cupiditate.
+                Vero?
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolore laboriosam ab culpa cupiditate.
+                Vero?
+              </div>
+            </div>
+
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolore laboriosam ab culpa cupiditate.
+                Vero?
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mt-4">
+            <div class="card bg-primary text-center">
+              <div class="card-body">
+                <h3> Sign Up Today</h3>
+                <p> Please fill out this form to register</p>
+                <form>
+                  <div class="form-group mb-2">
+                    <input type="text" class="form-control form-control-lg" placeholder="Username">
+                  </div>
+                  <div class="form-group mb-2">
+                    <input type="email" class="form-control form-control-lg" placeholder="E-mail">
+                  </div>
+                  <div class="form-group mb-2">
+                    <input type="password" class="form-control form-control-lg" placeholder="password">
+                  </div>
+                  <div class="form-group mb-2">
+                    <input type="password" class="form-control form-control-lg" placeholder="Confirm password">
+                  </div>
+                  <input type="submit" value="Submit" class="btn btn-outline-light">
+                </form>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
+      </div>
+    </div>
+  </header>
 
-    <!-- navbar end -->
+  <!-- End homepage section -->
+
+  <!-- start explore head section -->
+
+  <section id="explore">
+    <div class="row container">
+      <div>
+        <h1 class="disply-4">
+          Explore
+        </h1>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae ipsam a laboriosam autem, excepturi
+          adipisci? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa, minima ex. Quos rerum sunt debitis
+          et iusto impedit! Rerum hic cupiditate dicta similique quod aliquid commodi accusamus perspiciatis id fugiat
+          modi nihil autem minus repellendus doloribus soluta, inventore assumenda totam?</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- End explore head section -->
+
+  <!-- explore text start section -->
+  <div class="explore-text">
+    <div class="row container">
+      <div class="col-md-6 col-sm-6">
+        <img src="img/explore-section1.jpg" alt="" class=" w-75 border rounded-circle">
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <div>
+          <h1 class="display-3"> Explore & Connect</h1>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis illum aliquam vero id quis deleniti
+            at, blanditiis veritatis minima repellat repellendus iste corporis laudantium voluptatum? Pariatur
+            distinctio quia doloribus nisi?</p>
+        </div>
+        <div class="d-flex">
+          <div class="p-4 align-self-start">
+            <i class="fas fa-check fa-2x"></i>
+          </div>
+          <div class="p-4 align-self-end">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolore laboriosam ab culpa cupiditate.
+            Vero?
+          </div>
+        </div>
+
+        <div class="d-flex">
+          <div class="p-4 align-self-start">
+            <i class="fas fa-check fa-2x"></i>
+          </div>
+          <div class="p-4 align-self-end">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolore laboriosam ab culpa cupiditate.
+            Vero?
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- explore text end section -->
+
+
+  <!-- Star careate section -->
+
+  <section id="create">
+    <div class="container">
+      <h1 class="display-4">
+        Create
+      </h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt eveniet earum quibusdam, et, ipsum numquam
+        facere porro distinctio quis perspiciatis nostrum doloribus, magni aspernatur officia quisquam sequi sint eos
+        dolorum officiis culpa sed nam tempora itaque voluptatem! Maxime, sit ab.</p>
+      <button class="btn btn-outline-light"> Find Out More</button>
+    </div>
+
+  </section>
+
+  <div class="create-text">
+    <div class="row container">
+      <div class="col-md-6 ">
+        <img src="img/share-section1.jpg" alt="image" class="img-fluid w-75 rounded-circle border-1">
+      </div>
+      <div class="col-md-6">
+        <h1 class="display-4">
+          Share What You Create
+        </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam earum laudantium molestias nisi exercitationem
+          cum, nulla pariatur ipsa consectetur porro, voluptate nam ratione expedita voluptatem eum et? Voluptatum error
+          sapiente earum commodi vero ea mollitia autem, provident, iusto molestiae illo!</p>
+
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolore laboriosam ab culpa cupiditate.
+              Vero?
+            </div>
+          </div>
+    
+          <div class="d-flex">
+            <div class="p-4 align-self-start">
+              <i class="fas fa-check fa-2x"></i>
+            </div>
+            <div class="p-4 align-self-end">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolore laboriosam ab culpa cupiditate.
+              Vero?
+            </div>
+          </div>
+      </div>
+      
+
+    </div>
+  </div>
+
+  <!-- end create section -->
+
+  <!-- star footer section -->
+      <footer class="footer-section">
+          <h3>
+            LoopLAB
+          </h3>
+          <h6 class="mt-1 mb-2"> Copyright &copy; 2021</h6>
+          <button class="btn btn-primary mt-2">Contact Us</button>
+      </footer>
+  <!-- end footer section -->
 
 
 
@@ -70,21 +281,16 @@
 
 
 
-
-
-
-
-    <!-- add javascript bootstrap cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
-        integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
-        integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
-    </script>
-
+  <!-- add javascript bootstrap cdn -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+    integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"
+    integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous">
+  </script>
 
 </body>
 
